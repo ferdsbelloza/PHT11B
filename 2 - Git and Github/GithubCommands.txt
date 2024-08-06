@@ -32,3 +32,6 @@ git branch -a
 
 - Switching from one branch to another
 git switch (branch_name)
+
+- Merge created branch to the main branch
+git merge [branch_name]
