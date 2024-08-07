@@ -35,3 +35,21 @@ git switch (branch_name)
 
 - Merge created branch to the main branch
 git merge [branch_name]
+
+- Deleting branches
+git branch -d [branch_name]
+
+- Connecting Local Repository to Remote Repository
+git remote add origin <repository-url>
+
+- Change from Master to main
+git branch -M main
+
+- Pushed our local repository to the remote repository
+git push -u origin main
+
+- Cloning Repository
+git clone <repository-url>
+
+- Pulling Changes from a Remote Repository
+git pull origin main
